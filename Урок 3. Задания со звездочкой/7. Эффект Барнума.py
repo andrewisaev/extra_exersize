@@ -1,16 +1,21 @@
-year = input()
-month = input()
-day = input()
+from time import sleep
+
+year = input("Введите год рождения:\n")
+month = input("Введите месяц рождения:\n")
+day = input("Введите день рождения:\n")
 
 day_sum = int(day[0]) + int(day[1])
 month_sum = int(month[0]) + int(month[1])
 year_sum = int(year[0]) + int(year[1]) + int(year[2]) + int(year[3])
 
 date_sum = day_sum + month_sum + year_sum
-if date_sum > 10:
+if date_sum > 9:
     date_sum = date_sum % 10 + date_sum // 10
 
 print(f"Число вашего рождения: {date_sum}, готовлю прогноз...")
+for i in range(30):
+    print(".", end="")
+    sleep(0.2)
 print("""
 Вы очень нуждаетесь в том, чтобы другие люди любили вас и восхищались вами.
 Вы довольно самокритичны. У вас есть много скрытых возможностей,
@@ -19,6 +24,7 @@ print("""
 Дисциплинированный и уверенный с виду, на самом деле,
 вы склонны волноваться и чувствовать неуверенность.
       """)
+sleep(15)
 print("""
 Вы – легковерный дурачок.
 Нумерология – это лженаука.
