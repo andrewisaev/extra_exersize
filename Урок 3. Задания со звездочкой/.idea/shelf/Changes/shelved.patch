@@ -1,0 +1,48 @@
+Index: 2. Проверка по билетам
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>questions = [\r\n“”,\r\n“”,\r\n“”,\r\n“”,\r\n“”,\r\n]\r\n\r\nanswers = [“”,””,””,””,””]\r\n\r\nif …:\r\nprint(“Ответ верный”)\r\n\r\nelse:\r\nprint(“Ответ неверный”, “Верный ответ: ...”)
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2. Проверка по билетам b/2. Проверка по билетам
+--- a/2. Проверка по билетам	(revision f6ffba63bf6d26985bc5fa248731f84e05160e12)
++++ b/2. Проверка по билетам	(date 1657543890798)
+@@ -1,15 +1,9 @@
+-questions = [
+-“”,
+-“”,
+-“”,
+-“”,
+-“”,
+-]
++questions = []
+ 
+-answers = [“”,””,””,””,””]
++answers = []
+ 
+ if …:
+-print(“Ответ верный”)
++    print("Ответ верный")
+ 
+ else:
+-print(“Ответ неверный”, “Верный ответ: ...”)
+\ No newline at end of file
++    print("Ответ неверный”, “Верный ответ: ...")
+\ No newline at end of file
+Index: 5. Конвертер чисел 2.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\r\nuser_number = int(input())\r\n\r\nif user_number
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/5. Конвертер чисел 2.py b/5. Конвертер чисел 2.py
+--- a/5. Конвертер чисел 2.py	(revision f6ffba63bf6d26985bc5fa248731f84e05160e12)
++++ b/5. Конвертер чисел 2.py	(date 1657543890709)
+@@ -1,4 +1,0 @@
+-
+-user_number = int(input())
+-
+-if user_number
+\ No newline at end of file
